@@ -1,0 +1,115 @@
+   30  git clone https://github.com/trivikram1999/demo-repo.git
+   31  git config --global user.name "trivikram1999"
+   32  git config --global user.email trivikram1999@gmail.com
+   33  ssh-keygen -t rsa
+   34  cd C:\Users\Training\.ssh
+   35  cd .ssh/
+   36  ls
+   37  cat id_rsa.pub
+   38  git clone https://github.com/trivikram1999/assignment.git
+   39  ls
+   40  cd assignment/
+   41  ls
+   42  pwd
+   43  cd ..
+   44  cd ..
+   45  git clone https://github.com/trivikram1999/assignment.git
+   46  git add first.html
+   47  git commit -m "first time updating"
+   48  git push
+   49  git add first.html
+   50  git commit -m "Second change"
+   51  git push
+   52  git log -oneline
+   53  git log --oneline
+   54  git add first.html
+   55  git commit -m "third change"
+   56  git push
+   57  git add first.html
+   58  git commit -m "fourth change"
+   59  git push'
+   60  git push
+   61  git log --oeline
+   62  git log --oneline
+   63  git rebase -i HEAD~2
+   64  git log --oneline
+   65  git push
+   66  git pull --rebase
+   67  git push
+   68  git log --oneline
+   69  git rebase -i HEAD~2
+   70  git log --oneline
+   71*
+   72  git log --oneline
+   73  git push origin +main
+   74  git push origin +master
+   75  git checkout -b branch1
+   76  git add first.html
+   77  git push
+   78  git push --set-upstream origin branch1
+   79  git add first.html
+   80  git commit -m "first commit of newbranch"
+   81  git push
+   82  git add first.html
+   83  git commit -m "second change from newbranch""
+   84  git commit -m "second change from newbranch"
+   85  git push
+   86  git checkout master
+   87  git merge branch1
+   88  git push
+   89  git branch
+   90  git checkout branch1
+   91  git add first.html
+   92  git commit -m "third change in branch"
+   93  git push
+   94  git checkout master
+   95  git checkout master
+   96  git add first.html
+   97  git commit -m "change in master head"
+   98  git merge branch1
+   99  git push
+  100  history
+  101  git checkout -b branch2
+  102  git add first.html
+  103  git add first.html
+  104  git commit -b "sadsad"
+  105  git commit -m "sadsad"
+  106  git push
+  107  git push --set-upstream origin branch2
+  108  git log --oneline
+  109  git checkout -b branch3 65c5591 third change_squashing
+  110  git checkout -b branch3 65c5591
+  111  git add first.html
+  112  git commit -m "safffdfgfdgfgd"
+  113  git push
+  114  git push --set-upstream origin branch3
+  115  git add first.html
+  116  git commit -m "safffdfgfdgf"
+  117  git push --set-upstream origin branch3
+  118  git merge branch2
+  119  git checkout -f branch3
+  120  git merge branch2
+  121  git add first.html
+  122  git commit -m "sadasd"
+  123  git push
+  124  git merge branch2
+  125  git checkout branch2
+  126  git add first.html
+  127  git commit -m "fgsfgfgdfgd"
+  128  git push
+  129  git checkout branch3
+  130  git merge branch2
+  131  git checkout master
+  132  git merge branch3
+  133  git merge branch2
+  134  git log --oneline
+  135  git reset HEAD~2
+  136  git stash
+  137  git revert d931e82
+  138  git stash pop
+  139  git push
+  140  git push origin +master
+  141  history
+  142  git branch -d branch1
+  143  git push origin --delete branch1
+  144  history
